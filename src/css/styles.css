@@ -224,7 +224,6 @@ button {
       margin-bottom: 39px; }
 
 button {
-  font-family: 'gilroy-light';
   font-size: 15px;
   line-height: 22px;
   color: #2BF5E2;
@@ -289,7 +288,6 @@ button {
 .holder-connect-with-us .general-btn {
   color: #162137;
   background: #2BF5E2;
-  font-family: 'gilroy-heavy';
   padding: 23px 102px; }
   .holder-connect-with-us .general-btn:hover {
     background: #27dfe5; }
@@ -297,7 +295,6 @@ button {
 .holder-footer-blog .general-btn {
   color: #162137;
   background: #2BF5E2;
-  font-family: 'gilroy-heavy';
   padding: 23px 102px; }
   .holder-footer-blog .general-btn:hover {
     background: #27dfe5; }
@@ -305,7 +302,6 @@ button {
 .holder-footer-blog-in .general-btn {
   color: #162137;
   background: #2BF5E2;
-  font-family: 'gilroy-heavy';
   padding: 23px 102px; }
   .holder-footer-blog-in .general-btn:hover {
     background: #27dfe5; }
