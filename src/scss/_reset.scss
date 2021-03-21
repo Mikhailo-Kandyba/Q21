@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  height: 100%;
+  background: #fff;
+  font-size: 17px;
+  font-family: 'gilroy-medium';
 }
 ol, ul {
   list-style: none;
@@ -71,20 +75,12 @@ button {
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-  font-size: 17px;
-
-  h3,
-  h4 {
-    font-family: 'gilroy-heavy';
-  }
-
-  p {
-    font-family: 'gilroy-light';
-  }
+#wrapper {
+  overflow: hidden;
+  position: relative;
 }
+
+
 
 
 

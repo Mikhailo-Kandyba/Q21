@@ -27,7 +27,11 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  height: 100%;
+  background: #fff;
+  font-size: 17px;
+  font-family: 'gilroy-medium'; }
 
 ol, ul {
   list-style: none; }
@@ -61,18 +65,9 @@ button {
 * {
   box-sizing: border-box; }
 
-html,
-body {
-  height: 100%;
-  font-size: 17px; }
-  html h3,
-  html h4,
-  body h3,
-  body h4 {
-    font-family: 'gilroy-heavy'; }
-  html p,
-  body p {
-    font-family: 'gilroy-light'; }
+#wrapper {
+  overflow: hidden;
+  position: relative; }
 
 .container {
   margin: 0 auto;
@@ -866,14 +861,8 @@ button {
       align-items: center; }
 
 @font-face {
-  font-family: 'gilroy-heavy';
-  src: url("../fonts/gilroy-heavy-webfont.woff2") format("woff2"), url("../fonts/gilroy-heavy-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'gilroy-light';
-  src: url("../fonts/gilroy-light-webfont.woff2") format("woff2"), url("../fonts/gilroy-light-webfont.woff") format("woff");
+  font-family: 'gilroy-bold';
+  src: url("../fonts/gilroy-bold-webfont.woff2") format("woff2"), url("../fonts/gilroy-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -895,14 +884,12 @@ button {
   padding: 332px 14px 0;
   margin-bottom: 181px; }
   .holder-banner-text h2 {
-    font-family: "gilroy-heavy";
     font-size: 50px;
     line-height: 60px;
     color: #162137;
     margin-bottom: 39px;
     width: 675px; }
   .holder-banner-text p {
-    font-family: 'gilroy-light';
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
