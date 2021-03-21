@@ -71,6 +71,9 @@
         </div>
     </header>
     <main>
+        <div id="dialog">
+            <img src="../src/images/rectangle-24.png" alt="vidio">
+        </div>
         <div class="general-holder-video-blog">
             <section class="container">
                 <div class="holder-video-blog">
@@ -227,6 +230,11 @@
             $(this).toggleClass('menu-btn-active');
             $(".mobile-menu-navigation").toggleClass('show-menu')
         });
+    </script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog();
+        } );
     </script>
 </body>
 </html>
