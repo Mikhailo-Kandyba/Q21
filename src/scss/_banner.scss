@@ -1,0 +1,36 @@
+.banner {
+  background: #F9FBF9 url("../images/iphone-x.png");
+  background-position: bottom right;
+  background-size: 1600px 1000px;
+  background-repeat: no-repeat;
+  min-height: 1010px;
+}
+
+.banner-text {
+
+}
+
+.holder-banner-text {
+  text-align: left;
+  padding: 332px 14px 0;
+  margin-bottom: 181px;
+
+  h2 {
+    font-family: "gilroy-heavy";
+    font-size: 50px;
+    line-height: 60px;
+    color: #162137;
+    margin-bottom: 39px;
+    width: 675px;
+  }
+
+  p {
+    font-family: 'gilroy-light';
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #162137;
+    width: 475px;
+    margin-bottom: 62px;
+  }
+}

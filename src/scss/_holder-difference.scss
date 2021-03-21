@@ -1,0 +1,57 @@
+.holder-difference {
+  background: #162137;
+}
+
+.holder-difference-and-service {
+  background: url("../images/raptor.png");
+  background-position: bottom left;
+  background-size: 1100px 600px;
+  background-repeat: no-repeat;
+  min-height: 1010px;
+  display: flex;
+  justify-content: space-between;
+  padding: 311px 0 73px;
+
+  .holder-text {
+    width: 639px;
+    padding: 32px 0 0 2px;
+
+    h3 {
+      font-size: 55px;
+      line-height: 66px;
+      color: #fff;
+      text-align: left;
+      margin-bottom: 39px;
+    }
+
+    p {
+      width: 561px;
+      font-size: 22px;
+      line-height: 39px;
+      color: #fff;
+    }
+  }
+
+  .difference-columns {
+    width: 746px;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      width: 326px;
+      margin: 0 16px 113px;
+
+      h3 {
+        font-size: 23px;
+        line-height: 24px;
+        color: #2BF5E2;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 22px;
+        line-height: 31px;
+        color: #fff;
+      }
+    }
+  }
+}

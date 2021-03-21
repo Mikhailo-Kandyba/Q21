@@ -1,0 +1,76 @@
+.holder-employees {
+  display: flex;
+  margin: 0 -8px;
+
+  .general-btn {
+    display: none;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #2BF5E2;
+}
+
+.wrapper-overlay {
+  position: relative;
+}
+
+.wrapper-overlay:hover .overlay {
+  opacity: 0.5;
+}
+
+.employees {
+  padding: 366px 0 208px 0;
+
+  .holder-text {
+
+    h3 {
+      font-family: 'gilroy-medium';
+      font-size: 50px;
+      line-height: 75px;
+      color: #162137;
+      text-align: left;
+      margin-bottom: 79px;
+    }
+  }
+}
+
+.photo-employees {
+  display: flex;
+  margin: 0 -20px;
+
+
+  li {
+    position: relative;
+    margin: 0 20px;
+
+    img {
+      margin-bottom: 25px;
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 28px;
+      line-height: 42px;
+      color: #162137;
+      text-align: left;
+      margin-bottom: 27px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 33px;
+      color: #162137;
+      text-align: left;
+    }
+  }
+}

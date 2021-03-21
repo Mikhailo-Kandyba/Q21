@@ -1,0 +1,118 @@
+.holder-video-blog {
+  position: relative;
+
+  .show-video {
+    display: block;
+  }
+}
+
+.video-blog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 308px 0 150px;
+
+  .holder-text {
+    margin-bottom: 79px;
+
+    h3 {
+      font-size: 50px;
+      line-height: 75px;
+      text-align: left;
+      color: #162137;
+    }
+  }
+}
+
+
+
+.holder-videos-and-articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -32px;
+  margin-bottom: 20px;
+
+  .videos-and-articles {
+    width: 30.3%;
+    margin: 0 24px 80px;
+
+    img {
+      filter: grayscale(100%);
+      margin-bottom: 25px;
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 28px;
+      line-height: 42px;
+      color: #162137;
+      margin-bottom: 26px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+}
+
+.holder-video-interview {
+  display: flex;
+  margin: 0 -31px;
+
+  .video-interview {
+    margin: 0 23px;
+
+    img {
+      filter: grayscale(100%);
+      margin-bottom: 25px;
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 28px;
+      line-height: 42px;
+      color: #162137;
+      text-align: left;
+      margin-bottom: 26px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 33px;
+      color: #162137;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 94.5%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #2BF5E2;
+}
+
+.wrapper-overlay {
+  position: relative;
+}
+
+.wrapper-overlay:hover .overlay {
+  opacity: 0.5;
+}
+
+.general-holder-video-blog {
+
+  .connect-with-us {
+    padding: 166px 0 0;
+
+    .text {
+      width: 740px;
+    }
+  }
+}

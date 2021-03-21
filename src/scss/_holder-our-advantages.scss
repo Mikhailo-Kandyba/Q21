@@ -1,0 +1,105 @@
+.holder-our-advantages {
+  background: #162137;
+  min-height: 1543px;
+}
+
+.our-advantages {
+  margin-bottom: 150px;
+}
+
+.holder-our-advantages-all {
+  padding: 285px 0 188px;
+
+  h3 {
+    font-size: 55px;
+    line-height: 82px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 77px;
+  }
+}
+
+.list-our-advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -28px;
+
+  .holder {
+    display: flex;
+    min-height: 270px;
+    padding: 36px 59px;
+    background: #111C32;
+    width: 761px;
+    margin: 0 18px 54px;
+
+    img {
+      width: 26px;
+      height: 26px;
+      margin: 20px 43px 0 0;
+    }
+
+    .text-advantages {
+      h3 {
+        font-size: 30px;
+        line-height: 45px;
+        color: #fff;
+        text-align: left;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.holder-appraisal {
+  display: flex;
+  justify-content: space-around;
+
+  .text-appraisal {
+    width: 466px;
+
+    p {
+      font-size: 55px;
+      line-height: 66px;
+      color: #fff;
+      text-align: left;
+    }
+  }
+}
+
+.appraisal {
+  display: flex;
+  width: 725px;
+  justify-content: space-between;
+
+  .holder-star {
+    display: flex;
+    justify-content: center;
+
+    img {
+      margin: 0 5px;
+    }
+  }
+
+
+  .trustpilot-appraisal {
+    margin: 0 30px;
+
+    img {
+      margin-bottom: 14px;
+    }
+  }
+
+  .google-appraisal {
+
+    img {
+      margin-bottom: 14px;
+    }
+  }
+}

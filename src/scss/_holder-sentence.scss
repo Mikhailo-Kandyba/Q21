@@ -1,0 +1,170 @@
+.holder-sentence {
+  background: #162137;
+  min-height: 1010px;
+  position: relative;
+}
+
+.gradient-top  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(40% 30% at 4% 36%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%);
+}
+
+.gradient-bottom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(40% 30% at 96% 92%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%);
+}
+
+.sentence-photo-service {
+  background: url("../images/iphone-11.png");
+  background-position: top left;
+  background-size: 1000px 1000px;
+  background-repeat: no-repeat;
+  min-height: 1010px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 140px 0 0;
+  margin: 0 -39px;
+
+  .sentence-service {
+    width: 946px;
+    padding: 318px 0;
+
+    h3 {
+      font-size: 50px;
+      line-height: 60px;
+      color: #fff;
+      margin-bottom: 77px;
+    }
+
+    .service {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 67px;
+      margin-right: -30px;
+
+       div {
+         display: flex;
+         width: 428px;
+         margin: 0 24px 51px 0;
+
+
+         img {
+           width: 26px;
+           height: 26px;
+           margin: 11px 42px 0 0;
+         }
+
+         p {
+           font-size: 23px;
+           line-height: 35px;
+           color: #fff;
+           text-align: left;
+         }
+       }
+    }
+  }
+}
+
+.authorization-steps {
+  position: relative;
+  padding: 0 0 134px 165px;
+
+  .vector {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .arrow-1 {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+  }
+
+  .arrow-2 {
+    position: absolute;
+    bottom: 31%;
+    left: 30%;
+  }
+
+  h3 {
+    font-family: 'gilroy-medium';
+    font-size: 55px;
+    line-height: 58px;
+    color: #2BF5E2;
+  }
+
+  h4 {
+    font-family: 'gilroy-medium';
+    font-size: 55px;
+    line-height: 65px;
+    color: #fff;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+  }
+}
+
+.first-step-authorization {
+  width: 350px;
+
+  h3 {
+    margin-bottom: 74px;
+  }
+
+  h4 {
+    margin-bottom: 46px;
+  }
+}
+
+.holder-insurance-overview {
+  display: flex;
+  justify-content: flex-end;
+
+  .second-step {
+    width: 762px;
+    margin-bottom: 71px;
+
+    h3 {
+      margin-bottom: 65px;
+    }
+
+    h4 {
+      margin-bottom: 46px;
+    }
+
+    p {
+      width: 480px;
+    }
+  }
+}
+
+.third-step-authorization {
+  margin-left: 83px;
+
+  h3 {
+    margin-bottom: 74px;
+  }
+
+  h4 {
+    margin-bottom: 46px;
+  }
+
+  p {
+    width: 439px;
+  }
+}
+

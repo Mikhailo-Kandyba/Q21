@@ -1,0 +1,87 @@
+.holder-navigation .logo-holder {
+  padding: 62px 120px 0;
+  position: fixed;
+  z-index: 6;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holder-articles {
+  background: #162137;
+}
+
+.articles-photo {
+  padding: 147px 129px 210px;
+
+  .articles-title {
+    padding: 0 86px;
+    font-size: 60px;
+    line-height: 90px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 137px;
+  }
+
+  .holder-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 83px;
+
+    img {
+      filter: grayscale(100%);
+    }
+  }
+
+  .holder-paragraph {
+    text-align: left;
+    padding: 0 84px;
+    margin-bottom: 88px;
+
+    .big-paragraph {
+      margin-bottom: 69px;
+
+      p {
+        font-size: 30px;
+        line-height: 54px;
+        color: #fff;
+        margin-bottom: 55px;
+      }
+    }
+
+    .small-paragraph {
+      font-size: 22px;
+      line-height: 40px;
+      color: #fff;
+      margin-bottom: 70px;
+
+      p {
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        margin-bottom: 39px;
+      }
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 54px;
+      color: #fff;
+      margin-bottom: 42px;
+    }
+  }
+}
+
+.holder-articles {
+
+  .connect-with-us {
+    padding: 166px 0 0;
+
+    .text {
+      width: 740px;
+    }
+  }
+}
