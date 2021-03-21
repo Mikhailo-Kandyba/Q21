@@ -72,7 +72,7 @@ body {
     font-family: 'gilroy-heavy'; }
   html p,
   body p {
-    font-family: 'gilroy-lightuploaded'; }
+    font-family: 'gilroy-light'; }
 
 .container {
   margin: 0 auto;
@@ -248,9 +248,8 @@ button {
     background: #2BF5E2;
     border: none;
     position: absolute;
-    margin: -25px 0 0 -25px;
-    top: 50%;
-    right: 50%; }
+    top: 64%;
+    right: 47%; }
     .video-clip .video-btn:hover {
       background: #27dfe5; }
     .video-clip .video-btn span {
@@ -298,6 +297,22 @@ button {
   font-family: 'gilroy-heavy';
   padding: 23px 102px; }
   .holder-connect-with-us .general-btn:hover {
+    background: #27dfe5; }
+
+.holder-footer-blog .general-btn {
+  color: #162137;
+  background: #2BF5E2;
+  font-family: 'gilroy-heavy';
+  padding: 23px 102px; }
+  .holder-footer-blog .general-btn:hover {
+    background: #27dfe5; }
+
+.holder-footer-blog-in .general-btn {
+  color: #162137;
+  background: #2BF5E2;
+  font-family: 'gilroy-heavy';
+  padding: 23px 102px; }
+  .holder-footer-blog-in .general-btn:hover {
     background: #27dfe5; }
 
 .videos-and-articles {
@@ -687,7 +702,7 @@ button {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 308px 0 150px; }
+  padding: 295px 0 204px; }
   .video-blog .holder-text {
     margin-bottom: 79px; }
     .video-blog .holder-text h3 {
@@ -706,7 +721,7 @@ button {
     margin: 0 24px 80px; }
     .holder-videos-and-articles .videos-and-articles img {
       filter: grayscale(100%);
-      margin-bottom: 25px;
+      margin-bottom: 28px;
       width: 100%; }
     .holder-videos-and-articles .videos-and-articles h3 {
       font-size: 28px;
@@ -755,10 +770,24 @@ button {
 .wrapper-overlay:hover .overlay {
   opacity: 0.5; }
 
-.general-holder-video-blog .connect-with-us {
-  padding: 166px 0 0; }
-  .general-holder-video-blog .connect-with-us .text {
-    width: 740px; }
+.holder-footer-blog {
+  background: #111C32;
+  min-height: 513px; }
+  .holder-footer-blog .connect-with-us {
+    display: flex;
+    padding: 168px 0 134px;
+    justify-content: space-around; }
+    .holder-footer-blog .connect-with-us .text {
+      width: 740px; }
+      .holder-footer-blog .connect-with-us .text h3 {
+        font-size: 75px;
+        line-height: 91px;
+        color: #fff;
+        text-align: left; }
+    .holder-footer-blog .connect-with-us .connect-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .holder-navigation .logo-holder {
   padding: 62px 120px 0;
@@ -775,7 +804,7 @@ button {
   background: #162137; }
 
 .articles-photo {
-  padding: 147px 129px 210px; }
+  padding: 290px 129px 210px; }
   .articles-photo .articles-title {
     padding: 0 86px;
     font-size: 60px;
@@ -786,9 +815,10 @@ button {
   .articles-photo .holder-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 83px; }
+    margin-bottom: 92px; }
     .articles-photo .holder-photo img {
-      filter: grayscale(100%); }
+      filter: grayscale(100%);
+      width: 100%; }
   .articles-photo .holder-paragraph {
     text-align: left;
     padding: 0 84px;
@@ -816,10 +846,24 @@ button {
       color: #fff;
       margin-bottom: 42px; }
 
-.holder-articles .connect-with-us {
-  padding: 166px 0 0; }
-  .holder-articles .connect-with-us .text {
-    width: 740px; }
+.holder-footer-blog-in {
+  background: #111C32;
+  min-height: 513px; }
+  .holder-footer-blog-in .connect-with-us {
+    display: flex;
+    padding: 168px 0 134px;
+    justify-content: space-around; }
+    .holder-footer-blog-in .connect-with-us .text {
+      width: 740px; }
+      .holder-footer-blog-in .connect-with-us .text h3 {
+        font-size: 75px;
+        line-height: 91px;
+        color: #fff;
+        text-align: left; }
+    .holder-footer-blog-in .connect-with-us .connect-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 @font-face {
   font-family: 'gilroy-heavy';

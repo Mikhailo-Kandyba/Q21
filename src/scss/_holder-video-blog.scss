@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 308px 0 150px;
+  padding: 295px 0 204px;
 
   .holder-text {
     margin-bottom: 79px;
@@ -38,7 +38,7 @@
 
     img {
       filter: grayscale(100%);
-      margin-bottom: 25px;
+      margin-bottom: 28px;
       width: 100%;
     }
 
@@ -106,13 +106,31 @@
   opacity: 0.5;
 }
 
-.general-holder-video-blog {
+.holder-footer-blog {
+  background: #111C32;
+  min-height: 513px;
 
   .connect-with-us {
-    padding: 166px 0 0;
+    display: flex;
+    padding: 168px 0 134px;
+    justify-content: space-around;
 
     .text {
       width: 740px;
+
+      h3 {
+        font-size: 75px;
+        line-height: 91px;
+        color: #fff;
+        text-align: left;
+      }
+    }
+
+    .connect-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
+
 }

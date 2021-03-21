@@ -30,9 +30,8 @@ button {
     background: #2BF5E2;
     border: none;
     position: absolute;
-    margin: -25px 0 0 -25px;
-    top: 50%;
-    right: 50%;
+    top: 64%;
+    right: 47%;
 
     &:hover {
       background: #27dfe5;
@@ -102,6 +101,36 @@ button {
 }
 
 .holder-connect-with-us {
+  .general-btn {
+    color: #162137;
+    background: #2BF5E2;
+    font-family: 'gilroy-heavy';
+    padding: 23px 102px;
+
+    &:hover {
+      background: #27dfe5;
+    }
+
+  }
+}
+
+.holder-footer-blog {
+
+  .general-btn {
+    color: #162137;
+    background: #2BF5E2;
+    font-family: 'gilroy-heavy';
+    padding: 23px 102px;
+
+    &:hover {
+      background: #27dfe5;
+    }
+
+  }
+}
+
+.holder-footer-blog-in {
+
   .general-btn {
     color: #162137;
     background: #2BF5E2;
