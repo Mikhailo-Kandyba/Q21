@@ -273,7 +273,7 @@ h6 {
   padding-top: 0; }
   .modal-content .video-clip .video-btn {
     top: 50%;
-    right: 45px; }
+    right: 45%; }
   .modal-content .video-clip h3 {
     font-size: 30px;
     line-height: 45px;
@@ -951,3 +951,124 @@ button {
     color: #162137;
     width: 475px;
     margin-bottom: 62px; }
+
+@media (max-width: 1569px) {
+  .header {
+    padding: 62px 40px 0; }
+  .banner {
+    background-size: 1200px 770px;
+    background-position: top right;
+    min-height: 770px; }
+  .holder-banner-text {
+    padding: 200px 14px 0;
+    margin-bottom: 119px; }
+    .holder-banner-text h2 {
+      font-size: 40px; }
+  .video-clip {
+    padding-top: 230px; }
+  .video-clip .video-btn {
+    top: 60%; }
+  .holder-video-clip {
+    min-height: 960px; }
+    .holder-video-clip .gradient {
+      background: radial-gradient(30% 20% at 14% 62%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
+  .description-video {
+    padding: 118px 0 87px 30px; }
+    .description-video .holder-description-btn p {
+      font-size: 49px; }
+    .description-video .holder-description p {
+      font-size: 21px; }
+  .holder-difference-and-service {
+    background-size: 800px 560px;
+    min-height: 960px; }
+    .holder-difference-and-service .holder-text {
+      width: 440px; }
+      .holder-difference-and-service .holder-text h3 {
+        font-size: 37px;
+        line-height: 50px; }
+      .holder-difference-and-service .holder-text p {
+        width: 420px;
+        font-size: 13px;
+        line-height: 29px; }
+    .holder-difference-and-service .difference-columns div {
+      width: 315px; }
+      .holder-difference-and-service .difference-columns div h3 {
+        margin-bottom: 9px; }
+  .sentence-photo-service {
+    background-size: 700px 700px; }
+    .sentence-photo-service .sentence-service {
+      padding: 110px 0;
+      width: 726px; }
+      .sentence-photo-service .sentence-service h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px; }
+      .sentence-photo-service .sentence-service .service div {
+        width: 354px;
+        margin: 0 24px 35px 0; }
+        .sentence-photo-service .sentence-service .service div img {
+          width: 16px;
+          height: 16px;
+          margin: 11px 10px 0 0; }
+      .sentence-photo-service .sentence-service .general-btn {
+        padding: 12px 67px 15px 65px; }
+  .holder-sentence .gradient-top {
+    background: radial-gradient(30% 20% at 4% 36%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
+  .holder-sentence .gradient-bottom {
+    background: radial-gradient(30% 20% at 96% 92%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
+  .authorization-steps {
+    padding: 60px 0 134px 35px; }
+    .authorization-steps .arrow-1 {
+      top: 12%;
+      left: 30%; }
+    .authorization-steps .arrow-2 {
+      bottom: 35%;
+      left: 24%; }
+    .authorization-steps h3 {
+      font-size: 35px;
+      line-height: 38px;
+      margin-bottom: 25px; }
+    .authorization-steps h4 {
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 25px; }
+    .authorization-steps p {
+      font-size: 15px;
+      line-height: 20px; }
+  .first-step-authorization {
+    width: 270px; }
+  .holder-insurance-overview .second-step {
+    width: 560px; }
+    .holder-insurance-overview .second-step h3 {
+      margin-bottom: 25px; }
+    .holder-insurance-overview .second-step h4 {
+      margin-bottom: 25px; }
+    .holder-insurance-overview .second-step p {
+      width: 330px; }
+  .third-step-authorization {
+    margin-left: 50px; }
+    .third-step-authorization p {
+      width: 330px; }
+  .employees {
+    padding: 196px 0 78px 0; }
+  .list-our-advantages .holder {
+    width: 550px;
+    min-height: 200px; }
+    .list-our-advantages .holder img {
+      width: 16px;
+      height: 16px;
+      margin: 20px 13px 0 0; }
+    .list-our-advantages .holder .text-advantages h3 {
+      font-size: 20px;
+      line-height: 35px;
+      margin-bottom: 10px; }
+    .list-our-advantages .holder .text-advantages p {
+      font-size: 16px;
+      line-height: 25px; }
+  .holder-appraisal .text-appraisal p {
+    font-size: 45px;
+    line-height: 55px; }
+  .holder-connect-with-us {
+    min-height: 415px; }
+  .holder-connect-with-us {
+    padding: 60px 0 35px; } }
