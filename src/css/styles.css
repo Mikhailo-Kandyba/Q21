@@ -370,7 +370,7 @@ button {
     background: #2BF5E2;
     border: none;
     position: absolute;
-    top: 31%;
+    top: 41%;
     right: 40%;
     z-index: 2; }
     .videos-and-articles .video-btn:hover {
@@ -391,7 +391,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -95px 0 0 -105px;
+    margin: -48px 0 0 -105px;
     display: none; }
     .video-interview .general-btn:hover {
       background: #2BF5E2; }
