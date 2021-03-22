@@ -167,19 +167,30 @@ button {
 .video-interview {
   position: relative;
 
+
   .general-btn {
     color: #162137;
     background: transparent;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
-    z-index: 3;
+    z-index: 1;
     position: absolute;
     top: 50%;
     left: 50%;
     margin: -95px 0 0 -105px;
+    display: none;
 
     &:hover {
       background: #2BF5E2;
+    }
+  }
+}
+
+.video-interview {
+
+  &:hover {
+    .general-btn {
+      display: block;
     }
   }
 }

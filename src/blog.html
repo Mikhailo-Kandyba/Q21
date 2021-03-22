@@ -3,11 +3,9 @@
     <title>Q21-blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="wrapper">
@@ -72,9 +70,6 @@
             </div>
         </header>
         <main>
-            <div id="dialog">
-                <img src="../src/images/rectangle-24.png" alt="vidio">
-            </div>
             <div class="general-holder-video-blog">
                 <section class="container">
                     <div class="holder-video-blog">
@@ -176,7 +171,7 @@
                             </div>
                             <div class="holder-video-interview">
                                 <div class="video-interview">
-                                    <button class="general-btn">Um mehr zu lernen</button>
+                                    <a class="general-btn" href="#ex1" rel="modal:open">Um mehr zu lernen</a>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-interview.png" alt="video">
                                         <div class="overlay"></div>
@@ -189,7 +184,7 @@
                                     </p>
                                 </div>
                                 <div class="video-interview">
-                                    <button class="general-btn">Um mehr zu lernen</button>
+                                    <a class="general-btn" href="#ex1" rel="modal:open">Um mehr zu lernen</a>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-interview.png" alt="video">
                                         <div class="overlay"></div>
@@ -223,20 +218,31 @@
                 </section>
             </div>
         </footer>
+        <div id="ex1" class="modal">
+            <a class="close-btn" href="#" rel="modal:close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </a>
+            <div class="modal-content">
+                <div class="video-clip">
+                    <h3>
+                        Videotitel und Sprechername
+                    </h3>
+                    <img src="../src/images/rectangle-24.png" alt="vidio">
+                    <button class="video-btn">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script>
         $('.menu-btn').on('click',function(e){
-            e.preventDefault;
+            e.preventDefault()
             $(this).toggleClass('menu-btn-active');
             $(".mobile-menu-navigation").toggleClass('show-menu')
         });
-    </script>
-    <script>
-        $( function() {
-            $( "#dialog" ).dialog();
-        } );
     </script>
 </body>
 </html>
