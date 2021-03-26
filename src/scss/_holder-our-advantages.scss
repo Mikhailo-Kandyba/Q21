@@ -29,7 +29,7 @@
     min-height: 270px;
     padding: 36px 59px;
     background: #111C32;
-    width: 761px;
+    max-width: 760px;
     margin: 0 18px 54px;
 
     img {
@@ -62,7 +62,7 @@
   justify-content: space-around;
 
   .text-appraisal {
-    width: 466px;
+    max-width: 465px;
 
     p {
       font-size: 55px;
@@ -75,7 +75,7 @@
 
 .appraisal {
   display: flex;
-  width: 725px;
+  max-width: 725px;
   justify-content: space-between;
 
   .holder-star {

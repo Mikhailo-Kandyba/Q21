@@ -1,6 +1,6 @@
 .holder-connect-with-us {
   background: #111C32;
-  min-height: 513px;
+  min-height: 515px;
 }
 
 .connect-with-us {
@@ -9,7 +9,7 @@
   justify-content: space-around;
 
   .text {
-    width: 532px;
+    max-width: 532px;
 
     h3 {
       font-size: 75px;
@@ -24,13 +24,12 @@
       line-height: 32px;
       color: #fff;
       text-align: left;
-      width: 439px;
+      padding: 0 50px 0 0;
     }
   }
 
   .connect-btn {
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 }

@@ -50,10 +50,15 @@ table {
 
 i {
   cursor: pointer; }
+  i:hover {
+    color: #27dfe5; }
 
 a {
   color: #323232;
   text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    color: #27dfe5; }
   a:focus {
     outline: none; }
 
@@ -77,9 +82,13 @@ h5,
 h6 {
   font-family: 'gilroy-medium'; }
 
+.z-index {
+  position: relative;
+  z-index: 2; }
+
 .container {
   margin: 0 auto;
-  max-width: 1570px;
+  max-width: 1600px;
   padding: 0 15px; }
 
 .header {
@@ -97,8 +106,8 @@ h6 {
 
 .menu-btn {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   z-index: 5;
   position: relative; }
   .menu-btn:before {
@@ -143,33 +152,38 @@ h6 {
   height: 0; }
 
 .menu-btn-active span::before {
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  background-color: #fff; }
 
 .menu-btn-active span::after {
-  transform: rotate(-45deg); }
+  transform: rotate(-45deg);
+  background-color: #fff; }
 
 .menu-btn-active span::before {
-  left: -2px;
-  top: -2px; }
+  left: -1px;
+  top: -3px; }
 
 .mobile-menu-navigation {
   position: fixed;
-  right: 0;
+  right: -100%;
   top: 0;
+  bottom: 0;
   padding: 106px 84px 68px 80px;
-  display: none;
   background-color: #162137;
-  min-height: 1010px;
-  width: 865px; }
+  max-width: 865px;
+  transition: .5s ease-in-out right;
+  overflow: auto; }
 
 .navigation li {
-  margin-bottom: 70px; }
+  margin-bottom: 50px; }
   .navigation li a {
     text-align: center;
     text-decoration: none;
     font-size: 80px;
     line-height: 88px;
     color: #fff; }
+    .navigation li a:hover {
+      color: #27dfe5; }
 
 .navigation .heading a {
   font-size: 15px;
@@ -199,16 +213,11 @@ h6 {
       font-size: 30px; }
 
 .show-menu {
-  display: block; }
+  right: 0; }
 
 .holder-video-clip {
   position: relative;
-  background: #162137;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 1762px; }
+  background: #162137; }
 
 .gradient {
   position: absolute;
@@ -219,27 +228,31 @@ h6 {
   background: radial-gradient(40% 30% at 14% 62%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
 
 .video-clip {
-  padding-top: 406px; }
+  padding: 406px 0 185px; }
   .video-clip img {
     filter: grayscale(100%);
     width: 100%; }
 
-.description-video {
+.row {
   display: flex;
-  justify-content: space-between;
-  padding: 188px 0 87px 30px; }
-  .description-video .holder-description-btn {
-    width: 684px; }
-    .description-video .holder-description-btn p {
-      font-size: 50px;
-      line-height: 60px;
-      text-align: left;
-      color: #fff;
-      margin-bottom: 66px; }
-  .description-video .holder-description {
-    width: 691px;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 130px; }
+  .row .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 15px; }
+  .row .speaker-1 p {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 66px; }
+  .row .speaker-2 {
     padding: 36px 0 0 15px; }
-    .description-video .holder-description p {
+    .row .speaker-2 p {
       font-size: 22px;
       line-height: 40px;
       color: #fff;
@@ -280,61 +293,50 @@ h6 {
     color: #fff;
     margin-bottom: 46px; }
 
-button {
+.general-btn {
   font-size: 15px;
   line-height: 22px;
-  color: #2BF5E2;
+  color: #162137;
   padding: 13px 34px 14px 31px;
-  background: #162137;
+  background: #2BF5E2;
   border: none;
   cursor: pointer; }
+  .general-btn:hover {
+    background: #27dfe5; }
 
-.holder-banner-text .general-btn:hover {
-  background: #182d59; }
+.video-btn {
+  padding: 40px 25px 37px 39px;
+  background: #2BF5E2;
+  border: none; }
+  .video-btn span {
+    display: block;
+    border: 8px solid transparent;
+    border-left: 17px solid #fff; }
+  .video-btn:hover {
+    background: #27dfe5; }
+
+.holder-banner-text .general-btn {
+  background: #162137;
+  color: #2BF5E2; }
+  .holder-banner-text .general-btn:hover {
+    background: #212121; }
 
 .video-clip {
   position: relative; }
   .video-clip .video-btn {
-    padding: 40px 25px 37px 39px;
-    background: #2BF5E2;
-    border: none;
     position: absolute;
     top: 64%;
     right: 47%; }
-    .video-clip .video-btn:hover {
-      background: #27dfe5; }
-    .video-clip .video-btn span {
-      display: block;
-      border: 8px solid transparent;
-      border-left: 17px solid #fff; }
-
-.holder-description-btn .general-btn {
-  color: #162137;
-  background: #2BF5E2;
-  position: relative;
-  z-index: 2; }
-  .holder-description-btn .general-btn:hover {
-    background: #27dfe5; }
 
 .sentence-service .general-btn {
-  color: #162137;
-  background: #2BF5E2;
   padding: 22px 67px 25px 65px;
-  font-size: 22px;
-  position: relative;
-  z-index: 2; }
-  .sentence-service .general-btn:hover {
-    background: #27dfe5; }
+  font-size: 22px; }
 
 .photo-employees .general-btn {
-  color: #162137;
-  background: #2BF5E2;
   border: solid 2px #162137;
   padding: 11px 38px 11px 31px;
   position: relative;
   z-index: 2; }
-  .photo-employees .general-btn:hover {
-    background: #27dfe5; }
 
 .photo-employees li:hover .general-btn {
   display: block;
@@ -343,47 +345,27 @@ button {
   left: 32%; }
 
 .holder-connect-with-us .general-btn {
-  color: #162137;
-  background: #2BF5E2;
   padding: 23px 102px; }
-  .holder-connect-with-us .general-btn:hover {
-    background: #27dfe5; }
 
 .holder-footer-blog .general-btn {
-  color: #162137;
-  background: #2BF5E2;
   padding: 23px 102px; }
-  .holder-footer-blog .general-btn:hover {
-    background: #27dfe5; }
 
 .holder-footer-blog-in .general-btn {
-  color: #162137;
-  background: #2BF5E2;
   padding: 23px 102px; }
-  .holder-footer-blog-in .general-btn:hover {
-    background: #27dfe5; }
 
 .videos-and-articles {
   position: relative; }
   .videos-and-articles .video-btn {
     padding: 40px 25px 37px 39px;
-    background: #2BF5E2;
     border: none;
     position: absolute;
     top: 41%;
     right: 40%;
     z-index: 2; }
-    .videos-and-articles .video-btn:hover {
-      background: #27dfe5; }
-    .videos-and-articles .video-btn span {
-      display: block;
-      border: 8px solid transparent;
-      border-left: 17px solid #fff; }
 
 .video-interview {
   position: relative; }
   .video-interview .general-btn {
-    color: #162137;
     background: transparent;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
@@ -393,8 +375,6 @@ button {
     left: 50%;
     margin: -48px 0 0 -105px;
     display: none; }
-    .video-interview .general-btn:hover {
-      background: #2BF5E2; }
 
 .video-interview:hover .general-btn {
   display: block; }
@@ -402,34 +382,17 @@ button {
 .scroll {
   text-align: center; }
   .scroll .scroll-btn {
-    color: #162137;
+    color: #fff;
     letter-spacing: 1px;
     font-size: 14px;
     background: none;
-    padding: 0; }
+    padding: 0;
+    border: none; }
     .scroll .scroll-btn:hover {
       color: #27dfe5; }
 
-.holder-video-clip .scroll .scroll-btn {
-  position: relative;
-  z-index: 2;
-  color: #fff; }
-  .holder-video-clip .scroll .scroll-btn:hover {
-    color: #27dfe5; }
-
-.holder-difference .scroll .scroll-btn {
-  color: #fff; }
-  .holder-difference .scroll .scroll-btn:hover {
-    color: #27dfe5; }
-
-.holder-sentence .scroll {
-  padding-bottom: 43px; }
-  .holder-sentence .scroll .scroll-btn {
-    position: relative;
-    z-index: 2;
-    color: #fff; }
-    .holder-sentence .scroll .scroll-btn:hover {
-      color: #27dfe5; }
+.banner .scroll-btn {
+  color: #162137; }
 
 .holder-difference {
   background: #162137; }
@@ -437,14 +400,13 @@ button {
 .holder-difference-and-service {
   background: url("../images/raptor.png");
   background-position: bottom left;
-  background-size: 1100px 600px;
+  background-size: 1000px 500px;
   background-repeat: no-repeat;
-  min-height: 1010px;
   display: flex;
   justify-content: space-between;
   padding: 311px 0 73px; }
   .holder-difference-and-service .holder-text {
-    width: 639px;
+    max-width: 640px;
     padding: 32px 0 0 2px; }
     .holder-difference-and-service .holder-text h3 {
       font-size: 55px;
@@ -453,16 +415,16 @@ button {
       text-align: left;
       margin-bottom: 39px; }
     .holder-difference-and-service .holder-text p {
-      width: 561px;
       font-size: 22px;
       line-height: 39px;
-      color: #fff; }
+      color: #fff;
+      padding: 0 60px 0 0; }
   .holder-difference-and-service .difference-columns {
-    width: 746px;
+    max-width: 745px;
     display: flex;
     flex-wrap: wrap; }
     .holder-difference-and-service .difference-columns div {
-      width: 326px;
+      max-width: 325px;
       margin: 0 16px 113px; }
       .holder-difference-and-service .difference-columns div h3 {
         font-size: 23px;
@@ -504,11 +466,9 @@ button {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  padding: 140px 0 0;
   margin: 0 -39px; }
   .sentence-photo-service .sentence-service {
-    width: 946px;
-    padding: 318px 0; }
+    max-width: 945px; }
     .sentence-photo-service .sentence-service h3 {
       font-size: 50px;
       line-height: 60px;
@@ -522,8 +482,8 @@ button {
       margin-right: -30px; }
       .sentence-photo-service .sentence-service .service div {
         display: flex;
-        width: 428px;
-        margin: 0 24px 51px 0; }
+        margin: 0 24px 51px 0;
+        max-width: 428px; }
         .sentence-photo-service .sentence-service .service div img {
           width: 26px;
           height: 26px;
@@ -563,7 +523,7 @@ button {
     color: #fff; }
 
 .first-step-authorization {
-  width: 350px; }
+  max-width: 350px; }
   .first-step-authorization h3 {
     margin-bottom: 74px; }
   .first-step-authorization h4 {
@@ -573,23 +533,22 @@ button {
   display: flex;
   justify-content: flex-end; }
   .holder-insurance-overview .second-step {
-    width: 762px;
+    max-width: 765px;
     margin-bottom: 71px; }
     .holder-insurance-overview .second-step h3 {
       margin-bottom: 65px; }
     .holder-insurance-overview .second-step h4 {
       margin-bottom: 46px; }
     .holder-insurance-overview .second-step p {
-      width: 480px; }
+      padding: 0 200px 0 0; }
 
 .third-step-authorization {
-  margin-left: 83px; }
+  margin-left: 83px;
+  max-width: 400px; }
   .third-step-authorization h3 {
     margin-bottom: 74px; }
   .third-step-authorization h4 {
     margin-bottom: 46px; }
-  .third-step-authorization p {
-    width: 439px; }
 
 .holder-employees {
   display: flex;
@@ -671,7 +630,7 @@ button {
     min-height: 270px;
     padding: 36px 59px;
     background: #111C32;
-    width: 761px;
+    max-width: 760px;
     margin: 0 18px 54px; }
     .list-our-advantages .holder img {
       width: 26px;
@@ -693,7 +652,7 @@ button {
   display: flex;
   justify-content: space-around; }
   .holder-appraisal .text-appraisal {
-    width: 466px; }
+    max-width: 465px; }
     .holder-appraisal .text-appraisal p {
       font-size: 55px;
       line-height: 66px;
@@ -702,7 +661,7 @@ button {
 
 .appraisal {
   display: flex;
-  width: 725px;
+  max-width: 725px;
   justify-content: space-between; }
   .appraisal .holder-star {
     display: flex;
@@ -718,14 +677,14 @@ button {
 
 .holder-connect-with-us {
   background: #111C32;
-  min-height: 513px; }
+  min-height: 515px; }
 
 .connect-with-us {
   display: flex;
   padding: 98px 0 134px;
   justify-content: space-around; }
   .connect-with-us .text {
-    width: 532px; }
+    max-width: 532px; }
     .connect-with-us .text h3 {
       font-size: 75px;
       line-height: 91px;
@@ -737,10 +696,9 @@ button {
       line-height: 32px;
       color: #fff;
       text-align: left;
-      width: 439px; }
+      padding: 0 50px 0 0; }
   .connect-with-us .connect-btn {
     display: flex;
-    justify-content: center;
     align-items: center; }
 
 .holder-video-blog {
@@ -904,7 +862,7 @@ button {
     padding: 168px 0 134px;
     justify-content: space-around; }
     .holder-footer-blog-in .connect-with-us .text {
-      width: 740px; }
+      max-width: 740px; }
       .holder-footer-blog-in .connect-with-us .text h3 {
         font-size: 75px;
         line-height: 91px;
@@ -936,21 +894,22 @@ button {
 
 .holder-banner-text {
   text-align: left;
-  padding: 332px 14px 0;
-  margin-bottom: 181px; }
+  padding: 332px 0 0 14px;
+  margin-bottom: 181px;
+  max-width: 675px; }
   .holder-banner-text h2 {
     font-size: 50px;
     line-height: 60px;
     color: #162137;
-    margin-bottom: 39px;
-    width: 675px; }
+    margin-bottom: 39px; }
   .holder-banner-text p {
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
+    letter-spacing: 1px;
     color: #162137;
-    width: 475px;
-    margin-bottom: 62px; }
+    margin-bottom: 62px;
+    padding: 0 100px 0 0; }
 
 @media (max-width: 1569px) {
   .header {
@@ -1072,3 +1031,63 @@ button {
     min-height: 415px; }
   .holder-connect-with-us {
     padding: 60px 0 35px; } }
+
+@media (max-width: 1199px) {
+  .header {
+    align-items: center;
+    padding: 22px 40px 0; }
+  .banner {
+    background-size: 1000px 670px;
+    background-position: bottom right; }
+  .holder-banner-text {
+    padding: 230px 14px 0; }
+    .holder-banner-text h2 {
+      font-size: 30px;
+      line-height: 50px;
+      width: 475px;
+      margin-bottom: 10px; }
+    .holder-banner-text p {
+      font-size: 17px;
+      line-height: 28px;
+      width: 345px; }
+  .description-video .holder-description-btn p {
+    font-size: 29px;
+    line-height: 48px;
+    width: 384px; }
+  .description-video .holder-description p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 25px; }
+  .holder-difference-and-service {
+    background-size: 600px 360px;
+    min-height: 860px;
+    padding: 311px 0 23px; }
+    .holder-difference-and-service .holder-text {
+      width: 340px; }
+      .holder-difference-and-service .holder-text h3 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px; }
+      .holder-difference-and-service .holder-text p {
+        width: 320px;
+        font-size: 13px;
+        line-height: 20px; }
+    .holder-difference-and-service .difference-columns {
+      width: 545px; }
+      .holder-difference-and-service .difference-columns div {
+        width: 215px; }
+        .holder-difference-and-service .difference-columns div p {
+          font-size: 15px;
+          line-height: 25px; }
+  .sentence-photo-service {
+    background-size: 500px 500px;
+    background-position: left; }
+    .sentence-photo-service .sentence-service {
+      padding: 190px 0;
+      width: 600px; }
+      .sentence-photo-service .sentence-service .service div {
+        width: 284px;
+        margin: 0 31px 10px 0; }
+        .sentence-photo-service .sentence-service .service div p {
+          font-size: 20px;
+          line-height: 25px; } }

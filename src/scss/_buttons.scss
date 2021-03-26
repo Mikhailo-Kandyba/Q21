@@ -1,90 +1,67 @@
-button {
+.general-btn {
   font-size: 15px;
   line-height: 22px;
-  color: #2BF5E2;
+  color: #162137;
   padding: 13px 34px 14px 31px;
-  background: #162137;
+  background: #2BF5E2;;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    background: #27dfe5;
+  }
+}
+
+.video-btn {
+  padding: 40px 25px 37px 39px;
+  background: #2BF5E2;
+  border: none;
+
+  span {
+    display: block;
+    border: 8px solid transparent;
+    border-left: 17px solid #fff;
+  }
+
+  &:hover {
+    background: #27dfe5;
+  }
 }
 
 .holder-banner-text {
-
   .general-btn {
+    background: #162137;
+    color: #2BF5E2;
 
     &:hover {
-      background: #182d59;
+      background: #212121;
     }
   }
-
 }
-
-
 
 .video-clip {
   position: relative;
 
   .video-btn {
-    padding: 40px 25px 37px 39px;
-    background: #2BF5E2;
-    border: none;
     position: absolute;
     top: 64%;
     right: 47%;
-
-    &:hover {
-      background: #27dfe5;
-    }
-
-    span {
-      display: block;
-      border: 8px solid transparent;
-      border-left: 17px solid #fff;
-    }
   }
 }
-
-.holder-description-btn {
-  .general-btn {
-    color: #162137;
-    background: #2BF5E2;
-    position: relative;
-    z-index: 2;
-
-    &:hover {
-      background: #27dfe5;
-    }
-  }
-}
-
 
 .sentence-service {
   .general-btn {
-    color: #162137;
-    background: #2BF5E2;
     padding: 22px 67px 25px 65px;
     font-size: 22px;
-    position: relative;
-    z-index: 2;
-
-    &:hover {
-      background: #27dfe5;
-    }
   }
 }
 
 .photo-employees {
   .general-btn {
-    color: #162137;
-    background: #2BF5E2;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
     position: relative;
     z-index: 2;
-
-    &:hover {
-      background: #27dfe5;
-    }
   }
 
   li {
@@ -101,42 +78,21 @@ button {
 
 .holder-connect-with-us {
   .general-btn {
-    color: #162137;
-    background: #2BF5E2;
     padding: 23px 102px;
-
-    &:hover {
-      background: #27dfe5;
-    }
-
   }
 }
 
 .holder-footer-blog {
 
   .general-btn {
-    color: #162137;
-    background: #2BF5E2;
     padding: 23px 102px;
-
-    &:hover {
-      background: #27dfe5;
-    }
-
   }
 }
 
 .holder-footer-blog-in {
 
   .general-btn {
-    color: #162137;
-    background: #2BF5E2;
     padding: 23px 102px;
-
-    &:hover {
-      background: #27dfe5;
-    }
-
   }
 }
 
@@ -145,22 +101,11 @@ button {
 
   .video-btn {
     padding: 40px 25px 37px 39px;
-    background: #2BF5E2;
     border: none;
     position: absolute;
     top: 41%;
     right: 40%;
     z-index: 2;
-
-    &:hover {
-      background: #27dfe5;
-    }
-
-    span {
-      display: block;
-      border: 8px solid transparent;
-      border-left: 17px solid #fff;
-    }
   }
 }
 
@@ -169,7 +114,6 @@ button {
 
 
   .general-btn {
-    color: #162137;
     background: transparent;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
@@ -179,10 +123,6 @@ button {
     left: 50%;
     margin: -48px 0 0 -105px;
     display: none;
-
-    &:hover {
-      background: #2BF5E2;
-    }
   }
 }
 

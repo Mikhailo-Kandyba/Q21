@@ -4,8 +4,8 @@
 
 .menu-btn {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   z-index: 5;
   position: relative;
 
@@ -60,32 +60,35 @@
 
 .menu-btn-active span::before {
   transform: rotate(45deg);
+  background-color: #fff;
 }
 
 .menu-btn-active span::after {
   transform: rotate(-45deg);
+  background-color: #fff;
 }
 
 .menu-btn-active span::before {
-  left: -2px;
-  top: -2px;
+  left: -1px;
+  top: -3px;
 }
 
 .mobile-menu-navigation {
   position: fixed;
-  right: 0;
+  right: -100%;
   top: 0;
+  bottom: 0;
   padding: 106px 84px 68px 80px;
-  display: none;
   background-color: #162137;
-  min-height: 1010px;
-  width: 865px;
+  max-width: 865px;
+  transition: .5s ease-in-out right;
+  overflow: auto;
 }
 
 .navigation {
 
   li {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
     a {
       text-align: center;
@@ -93,6 +96,10 @@
       font-size: 80px;
       line-height: 88px;
       color: #fff;
+
+      &:hover {
+        color: #27dfe5;
+      }
     }
   }
 
@@ -142,7 +149,7 @@
 }
 
 .show-menu {
-  display: block;
+  right: 0;
 }
 
 

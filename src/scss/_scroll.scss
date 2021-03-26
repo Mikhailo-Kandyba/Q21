@@ -2,11 +2,12 @@
   text-align: center;
 
   .scroll-btn {
-    color: #162137;
+    color: #fff;
     letter-spacing: 1px;
     font-size: 14px;
     background: none;
     padding: 0;
+    border: none;
 
     &:hover {
       color: #27dfe5;
@@ -14,52 +15,11 @@
   }
 }
 
-.holder-video-clip {
+.banner {
 
-  .scroll {
-
-    .scroll-btn {
-      position: relative;
-      z-index: 2;
-      color: #fff;
-
-      &:hover {
-        color: #27dfe5;
-      }
-    }
+  .scroll-btn {
+    color: #162137;
   }
 }
-
-.holder-difference {
-
-  .scroll {
-
-    .scroll-btn {
-      color: #fff;
-
-      &:hover {
-        color: #27dfe5;
-      }
-    }
-  }
-}
-
-.holder-sentence {
-
-  .scroll {
-    padding-bottom: 43px;
-
-    .scroll-btn {
-      position: relative;
-      z-index: 2;
-      color: #fff;
-
-      &:hover {
-        color: #27dfe5;
-      }
-    }
-  }
-}
-
 
 

@@ -52,11 +52,20 @@ table {
 }
 i {
   cursor: pointer ;
+
+  &:hover {
+    color: #27dfe5;
+  }
 }
 
 a {
   color: #323232;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #27dfe5;
+  }
 
   &:focus {
     outline: none;
@@ -87,6 +96,11 @@ h4,
 h5,
 h6 {
   font-family: 'gilroy-medium';
+}
+
+.z-index {
+  position: relative;
+  z-index: 2;
 }
 
 
