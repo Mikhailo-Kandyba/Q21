@@ -1,4 +1,4 @@
-.general-btn {
+.btn {
   font-size: 15px;
   line-height: 22px;
   color: #162137;
@@ -12,7 +12,7 @@
   }
 }
 
-.lg {
+.btn-lg {
   padding: 23px 102px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .holder-banner-text {
-  .general-btn {
+  .btn {
     background: #162137;
     color: #2BF5E2;
 
@@ -54,14 +54,14 @@
 }
 
 .sentence-service {
-  .general-btn {
+  .btn {
     padding: 22px 67px 25px 65px;
     font-size: 22px;
   }
 }
 
 .photo-employees {
-  .general-btn {
+  .btn {
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
     position: relative;
@@ -70,7 +70,7 @@
 
   li {
     &:hover {
-      .general-btn {
+      .btn {
         display: block;
         position: absolute;
         top: 36%;
@@ -82,7 +82,7 @@
 
 .holder-footer-blog {
 
-  .general-btn {
+  .btn {
     padding: 23px 102px;
   }
 }
@@ -104,7 +104,7 @@
   position: relative;
 
 
-  .general-btn {
+  .btn {
     background: transparent;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
@@ -120,7 +120,7 @@
 .video-interview {
 
   &:hover {
-    .general-btn {
+    .btn {
       display: block;
     }
   }

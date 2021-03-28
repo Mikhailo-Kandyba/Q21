@@ -333,7 +333,7 @@ h6 {
     color: #fff;
     margin-bottom: 46px; }
 
-.general-btn {
+.btn {
   font-size: 15px;
   line-height: 22px;
   color: #162137;
@@ -341,10 +341,10 @@ h6 {
   background: #2BF5E2;
   border: none;
   cursor: pointer; }
-  .general-btn:hover {
+  .btn:hover {
     background: #27dfe5; }
 
-.lg {
+.btn-lg {
   padding: 23px 102px; }
 
 .video-btn {
@@ -358,10 +358,10 @@ h6 {
   .video-btn:hover {
     background: #27dfe5; }
 
-.holder-banner-text .general-btn {
+.holder-banner-text .btn {
   background: #162137;
   color: #2BF5E2; }
-  .holder-banner-text .general-btn:hover {
+  .holder-banner-text .btn:hover {
     background: #212121; }
 
 .video-clip {
@@ -371,23 +371,23 @@ h6 {
     top: 64%;
     right: 47%; }
 
-.sentence-service .general-btn {
+.sentence-service .btn {
   padding: 22px 67px 25px 65px;
   font-size: 22px; }
 
-.photo-employees .general-btn {
+.photo-employees .btn {
   border: solid 2px #162137;
   padding: 11px 38px 11px 31px;
   position: relative;
   z-index: 2; }
 
-.photo-employees li:hover .general-btn {
+.photo-employees li:hover .btn {
   display: block;
   position: absolute;
   top: 36%;
   left: 32%; }
 
-.holder-footer-blog .general-btn {
+.holder-footer-blog .btn {
   padding: 23px 102px; }
 
 .videos-and-articles {
@@ -402,7 +402,7 @@ h6 {
 
 .video-interview {
   position: relative; }
-  .video-interview .general-btn {
+  .video-interview .btn {
     background: transparent;
     border: solid 2px #162137;
     padding: 11px 38px 11px 31px;
@@ -413,7 +413,7 @@ h6 {
     margin: -48px 0 0 -105px;
     display: none; }
 
-.video-interview:hover .general-btn {
+.video-interview:hover .btn {
   display: block; }
 
 .scroll {
@@ -547,7 +547,7 @@ h6 {
 .holder-employees {
   display: flex;
   margin: 0 -8px; }
-  .holder-employees .general-btn {
+  .holder-employees .btn {
     display: none; }
 
 .overlay {
@@ -961,7 +961,7 @@ h6 {
           width: 16px;
           height: 16px;
           margin: 11px 10px 0 0; }
-      .sentence-photo-service .sentence-service .general-btn {
+      .sentence-photo-service .sentence-service .btn {
         padding: 12px 67px 15px 65px; }
   .holder-sentence .gradient-top {
     background: radial-gradient(30% 20% at 4% 36%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
