@@ -75,33 +75,3 @@
     }
   }
 }
-
-
-.holder-footer-blog-in {
-  background: #111C32;
-  min-height: 513px;
-
-  .connect-with-us {
-    display: flex;
-    padding: 168px 0 134px;
-    justify-content: space-around;
-
-    .text {
-      max-width: 740px;
-
-      h3 {
-        font-size: 75px;
-        line-height: 91px;
-        color: #fff;
-        text-align: left;
-      }
-    }
-
-    .connect-btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-
-}

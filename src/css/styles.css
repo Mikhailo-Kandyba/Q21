@@ -387,9 +387,6 @@ h6 {
   top: 36%;
   left: 32%; }
 
-.holder-footer-blog .btn {
-  padding: 23px 102px; }
-
 .videos-and-articles {
   position: relative; }
   .videos-and-articles .video-btn {
@@ -669,29 +666,27 @@ h6 {
     margin-bottom: 14px; }
 
 .footer {
-  background: #111C32; }
+  background: #111C32;
+  padding: 100px 0 135px; }
 
 .footer-area {
   display: flex;
-  padding: 98px 0 134px;
-  justify-content: space-around; }
-  .footer-area .text {
+  justify-content: space-around;
+  align-items: center; }
+  .footer-area .footer-text {
     max-width: 532px; }
-    .footer-area .text h3 {
+    .footer-area .footer-text h3 {
       font-size: 75px;
       line-height: 91px;
       color: #fff;
       text-align: left;
       margin-bottom: 45px; }
-    .footer-area .text p {
+    .footer-area .footer-text p {
       font-size: 23px;
       line-height: 32px;
       color: #fff;
       text-align: left;
       padding: 0 50px 0 0; }
-  .footer-area .connect-btn {
-    display: flex;
-    align-items: center; }
 
 .holder-video-blog {
   position: relative; }
@@ -770,25 +765,6 @@ h6 {
 .wrapper-overlay:hover .overlay {
   opacity: 0.5; }
 
-.holder-footer-blog {
-  background: #111C32;
-  min-height: 513px; }
-  .holder-footer-blog .connect-with-us {
-    display: flex;
-    padding: 168px 0 134px;
-    justify-content: space-around; }
-    .holder-footer-blog .connect-with-us .text {
-      width: 740px; }
-      .holder-footer-blog .connect-with-us .text h3 {
-        font-size: 75px;
-        line-height: 91px;
-        color: #fff;
-        text-align: left; }
-    .holder-footer-blog .connect-with-us .connect-btn {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-
 .holder-navigation .logo-holder {
   padding: 62px 120px 0;
   position: fixed;
@@ -845,25 +821,6 @@ h6 {
       line-height: 54px;
       color: #fff;
       margin-bottom: 42px; }
-
-.holder-footer-blog-in {
-  background: #111C32;
-  min-height: 513px; }
-  .holder-footer-blog-in .connect-with-us {
-    display: flex;
-    padding: 168px 0 134px;
-    justify-content: space-around; }
-    .holder-footer-blog-in .connect-with-us .text {
-      max-width: 740px; }
-      .holder-footer-blog-in .connect-with-us .text h3 {
-        font-size: 75px;
-        line-height: 91px;
-        color: #fff;
-        text-align: left; }
-    .holder-footer-blog-in .connect-with-us .connect-btn {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
 
 @font-face {
   font-family: 'gilroy-bold';

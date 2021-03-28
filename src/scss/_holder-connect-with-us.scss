@@ -1,13 +1,14 @@
 .footer {
   background: #111C32;
+  padding: 100px 0 135px;
 }
 
 .footer-area {
   display: flex;
-  padding: 98px 0 134px;
   justify-content: space-around;
+  align-items: center;
 
-  .text {
+  .footer-text {
     max-width: 532px;
 
     h3 {
@@ -25,10 +26,5 @@
       text-align: left;
       padding: 0 50px 0 0;
     }
-  }
-
-  .connect-btn {
-    display: flex;
-    align-items: center;
   }
 }
