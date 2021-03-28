@@ -123,34 +123,31 @@
   display: flex;
   justify-content: space-between;
 
- .holder-contact-menu {
-   display: flex;
+  .holder-contact-menu {
+    display: flex;
 
-   li {
-     margin: 0 40px 0 0;
+    li {
+      margin: 0 40px 0 0;
 
-     a {
-       font-size: 20px;
-       line-height: 30px;
-       color: #fff;
-     }
-   }
- }
+      a {
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+      }
+    }
+  }
 
- .holder-social-network {
-   display: flex;
+  .holder-social-network {
+    display: flex;
 
-   a {
-     margin: 0 35px 0 0;
-     color: #fff;
-     font-size: 30px;
-   }
- }
+    a {
+      margin: 0 35px 0 0;
+      color: #fff;
+      font-size: 30px;
+    }
+  }
 }
 
 .show-menu {
   right: 0;
 }
-
-
-
