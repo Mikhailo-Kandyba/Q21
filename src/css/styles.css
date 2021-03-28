@@ -82,9 +82,23 @@ h5,
 h6 {
   font-family: 'gilroy-medium'; }
 
-.z-index {
+.z-index-2 {
   position: relative;
   z-index: 2; }
+
+.background-dark {
+  background: #162137; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+  .row .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 15px; }
 
 .container {
   margin: 0 auto;
@@ -217,7 +231,10 @@ h6 {
 
 .holder-video-clip {
   position: relative;
-  background: #162137; }
+  padding-bottom: 415px; }
+
+.margin-bottom {
+  padding-bottom: 200px; }
 
 .gradient {
   position: absolute;
@@ -233,30 +250,53 @@ h6 {
     filter: grayscale(100%);
     width: 100%; }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+.description-video {
   margin-bottom: 130px; }
-  .row .col {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-    padding: 0 15px; }
-  .row .speaker-1 p {
+  .description-video .description-1 p {
     font-size: 50px;
     line-height: 60px;
     text-align: left;
     color: #fff;
     margin-bottom: 66px; }
-  .row .speaker-2 {
+  .description-video .description-2 {
     padding: 36px 0 0 15px; }
-    .row .speaker-2 p {
+    .description-video .description-2 p {
       font-size: 22px;
       line-height: 40px;
       color: #fff;
       margin-bottom: 39px; }
+
+.description-franchise {
+  margin-bottom: 60px; }
+  .description-franchise .text-franchise {
+    padding: 30px 0 0; }
+    .description-franchise .text-franchise h3 {
+      font-size: 55px;
+      line-height: 66px;
+      color: #fff;
+      text-align: left;
+      margin-bottom: 39px; }
+    .description-franchise .text-franchise p {
+      font-size: 22px;
+      line-height: 39px;
+      color: #fff;
+      padding: 0 60px 0 0; }
+  .description-franchise .list {
+    display: flex;
+    flex-wrap: wrap; }
+    .description-franchise .list li {
+      max-width: 325px;
+      margin: 0 60px 115px 0; }
+      .description-franchise .list li .numeral {
+        display: block;
+        font-size: 23px;
+        line-height: 24px;
+        color: #2BF5E2;
+        margin-bottom: 40px; }
+      .description-franchise .list li p {
+        font-size: 22px;
+        line-height: 31px;
+        color: #fff; }
 
 .modal {
   width: auto;
@@ -304,6 +344,9 @@ h6 {
   .general-btn:hover {
     background: #27dfe5; }
 
+.lg {
+  padding: 23px 102px; }
+
 .video-btn {
   padding: 40px 25px 37px 39px;
   background: #2BF5E2;
@@ -344,13 +387,7 @@ h6 {
   top: 36%;
   left: 32%; }
 
-.holder-connect-with-us .general-btn {
-  padding: 23px 102px; }
-
 .holder-footer-blog .general-btn {
-  padding: 23px 102px; }
-
-.holder-footer-blog-in .general-btn {
   padding: 23px 102px; }
 
 .videos-and-articles {
@@ -386,7 +423,7 @@ h6 {
     letter-spacing: 1px;
     font-size: 14px;
     background: none;
-    padding: 0;
+    padding: 10px;
     border: none; }
     .scroll .scroll-btn:hover {
       color: #27dfe5; }
@@ -394,51 +431,7 @@ h6 {
 .banner .scroll-btn {
   color: #162137; }
 
-.holder-difference {
-  background: #162137; }
-
-.holder-difference-and-service {
-  background: url("../images/raptor.png");
-  background-position: bottom left;
-  background-size: 1000px 500px;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  padding: 311px 0 73px; }
-  .holder-difference-and-service .holder-text {
-    max-width: 640px;
-    padding: 32px 0 0 2px; }
-    .holder-difference-and-service .holder-text h3 {
-      font-size: 55px;
-      line-height: 66px;
-      color: #fff;
-      text-align: left;
-      margin-bottom: 39px; }
-    .holder-difference-and-service .holder-text p {
-      font-size: 22px;
-      line-height: 39px;
-      color: #fff;
-      padding: 0 60px 0 0; }
-  .holder-difference-and-service .difference-columns {
-    max-width: 745px;
-    display: flex;
-    flex-wrap: wrap; }
-    .holder-difference-and-service .difference-columns div {
-      max-width: 325px;
-      margin: 0 16px 113px; }
-      .holder-difference-and-service .difference-columns div h3 {
-        font-size: 23px;
-        line-height: 24px;
-        color: #2BF5E2;
-        margin-bottom: 40px; }
-      .holder-difference-and-service .difference-columns div p {
-        font-size: 22px;
-        line-height: 31px;
-        color: #fff; }
-
 .holder-sentence {
-  background: #162137;
-  min-height: 1010px;
   position: relative; }
 
 .gradient-top {
@@ -457,42 +450,43 @@ h6 {
   height: 100%;
   background: radial-gradient(40% 30% at 96% 92%, rgba(94, 228, 215, 0.276) 0%, rgba(94, 228, 215, 0) 100%); }
 
-.sentence-photo-service {
-  background: url("../images/iphone-11.png");
-  background-position: top left;
-  background-size: 1000px 1000px;
-  background-repeat: no-repeat;
-  min-height: 1010px;
-  position: relative;
+.wrapper-service {
   display: flex;
-  justify-content: flex-end;
-  margin: 0 -39px; }
-  .sentence-photo-service .sentence-service {
-    max-width: 945px; }
-    .sentence-photo-service .sentence-service h3 {
+  justify-content: space-between; }
+  .wrapper-service .img-area {
+    max-width: 700px; }
+    .wrapper-service .img-area img {
+      width: 100%;
+      height: auto; }
+  .wrapper-service .list-area {
+    max-width: 880px; }
+    .wrapper-service .list-area h3 {
       font-size: 50px;
       line-height: 60px;
       color: #fff;
       margin-bottom: 77px; }
-    .sentence-photo-service .sentence-service .service {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-bottom: 67px;
-      margin-right: -30px; }
-      .sentence-photo-service .sentence-service .service div {
-        display: flex;
-        margin: 0 24px 51px 0;
-        max-width: 428px; }
-        .sentence-photo-service .sentence-service .service div img {
-          width: 26px;
-          height: 26px;
-          margin: 11px 42px 0 0; }
-        .sentence-photo-service .sentence-service .service div p {
-          font-size: 23px;
-          line-height: 35px;
-          color: #fff;
-          text-align: left; }
+
+.description-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .description-list li {
+    display: flex;
+    max-width: 428px;
+    font-size: 23px;
+    line-height: 35px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-left: 20px; }
+    .description-list li:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: #27dfe5;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 10px;
+      left: 0; }
 
 .authorization-steps {
   position: relative;
@@ -606,7 +600,6 @@ h6 {
       text-align: left; }
 
 .holder-our-advantages {
-  background: #162137;
   min-height: 1543px; }
 
 .our-advantages {
@@ -675,29 +668,28 @@ h6 {
   .appraisal .google-appraisal img {
     margin-bottom: 14px; }
 
-.holder-connect-with-us {
-  background: #111C32;
-  min-height: 515px; }
+.footer {
+  background: #111C32; }
 
-.connect-with-us {
+.footer-area {
   display: flex;
   padding: 98px 0 134px;
   justify-content: space-around; }
-  .connect-with-us .text {
+  .footer-area .text {
     max-width: 532px; }
-    .connect-with-us .text h3 {
+    .footer-area .text h3 {
       font-size: 75px;
       line-height: 91px;
       color: #fff;
       text-align: left;
       margin-bottom: 45px; }
-    .connect-with-us .text p {
+    .footer-area .text p {
       font-size: 23px;
       line-height: 32px;
       color: #fff;
       text-align: left;
       padding: 0 50px 0 0; }
-  .connect-with-us .connect-btn {
+  .footer-area .connect-btn {
     display: flex;
     align-items: center; }
 
