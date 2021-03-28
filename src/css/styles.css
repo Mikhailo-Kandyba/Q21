@@ -100,6 +100,30 @@ h6 {
     max-width: 100%;
     padding: 0 15px; }
 
+.unique-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .unique-list li {
+    display: flex;
+    width: 50%;
+    font-size: 23px;
+    line-height: 35px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 80px; }
+    .unique-list li:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: #27dfe5;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 10px;
+      left: 0; }
+
 .container {
   margin: 0 auto;
   max-width: 1600px;
@@ -666,39 +690,17 @@ h6 {
   display: flex;
   justify-content: space-between; }
   .wrapper-service .img-area {
-    max-width: 700px; }
+    width: 100%; }
     .wrapper-service .img-area img {
       width: 100%;
       height: auto; }
   .wrapper-service .list-area {
-    max-width: 880px; }
+    padding-top: 240px; }
     .wrapper-service .list-area h3 {
       font-size: 50px;
       line-height: 60px;
       color: #fff;
       margin-bottom: 77px; }
-
-.description-list {
-  display: flex;
-  flex-wrap: wrap; }
-  .description-list li {
-    display: flex;
-    max-width: 428px;
-    font-size: 23px;
-    line-height: 35px;
-    color: #fff;
-    text-align: left;
-    position: relative;
-    padding-left: 20px; }
-    .description-list li:after {
-      content: '';
-      width: 10px;
-      height: 10px;
-      background: #27dfe5;
-      transform: rotate(45deg);
-      position: absolute;
-      top: 10px;
-      left: 0; }
 
 .authorization-steps {
   position: relative;
@@ -808,22 +810,21 @@ h6 {
       line-height: 39px;
       color: #fff;
       padding: 0 60px 0 0; }
-  .description-franchise .list {
+  .description-franchise .list-franchise li {
     display: flex;
-    flex-wrap: wrap; }
-    .description-franchise .list li {
-      max-width: 325px;
-      margin: 0 60px 115px 0; }
-      .description-franchise .list li .numeral {
-        display: block;
-        font-size: 23px;
-        line-height: 24px;
-        color: #2BF5E2;
-        margin-bottom: 40px; }
-      .description-franchise .list li p {
-        font-size: 22px;
-        line-height: 31px;
-        color: #fff; }
+    flex-direction: column; }
+    .description-franchise .list-franchise li:after {
+      display: none; }
+    .description-franchise .list-franchise li .numeral {
+      display: block;
+      font-size: 23px;
+      line-height: 24px;
+      color: #2BF5E2;
+      margin-bottom: 40px; }
+    .description-franchise .list-franchise li p {
+      font-size: 22px;
+      line-height: 31px;
+      color: #fff; }
 
 .modal {
   width: auto;

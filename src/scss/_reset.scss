@@ -121,6 +121,35 @@ h6 {
   }
 }
 
+.unique-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    display: flex;
+    width: 50%;
+    font-size: 23px;
+    line-height: 35px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 80px;
+
+    &:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: #27dfe5;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+  }
+}
+
 
 
 
