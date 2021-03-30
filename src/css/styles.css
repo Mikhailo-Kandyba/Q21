@@ -89,6 +89,14 @@ h6 {
 .background-dark {
   background: #162137; }
 
+.unique-list .padding {
+  padding-left: 100px;
+  padding-right: 70px; }
+  .unique-list .padding:after {
+    width: 15px;
+    height: 15px;
+    left: 8%; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -555,7 +563,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100%;
+  height: 98%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -577,68 +585,45 @@ h6 {
     text-align: left;
     margin-bottom: 79px; }
 
-.photo-employees {
+.photo-employees li {
   display: flex;
-  margin: 0 -20px; }
-  .photo-employees li {
-    position: relative;
-    margin: 0 20px; }
-    .photo-employees li img {
-      margin-bottom: 25px;
-      width: 100%; }
-    .photo-employees li h3 {
-      font-size: 28px;
-      line-height: 42px;
-      color: #162137;
-      text-align: left;
-      margin-bottom: 27px; }
-    .photo-employees li p {
-      font-size: 22px;
-      line-height: 33px;
-      color: #162137;
-      text-align: left; }
+  flex-direction: column;
+  width: 33.3%; }
+  .photo-employees li:after {
+    display: none; }
+  .photo-employees li h3 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #162137; }
+  .photo-employees li p {
+    font-size: 22px;
+    line-height: 33px;
+    color: #162137; }
 
 .holder-our-advantages {
   min-height: 1543px; }
 
-.our-advantages {
-  margin-bottom: 150px; }
-
 .holder-our-advantages-all {
-  padding: 285px 0 188px; }
+  padding: 330px 0 188px; }
   .holder-our-advantages-all h3 {
     font-size: 55px;
     line-height: 82px;
     color: #fff;
     text-align: center;
-    margin-bottom: 77px; }
+    margin-bottom: 115px; }
 
-.list-our-advantages {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -28px; }
-  .list-our-advantages .holder {
-    display: flex;
-    min-height: 270px;
-    padding: 36px 59px;
-    background: #111C32;
-    max-width: 760px;
-    margin: 0 18px 54px; }
-    .list-our-advantages .holder img {
-      width: 26px;
-      height: 26px;
-      margin: 20px 43px 0 0; }
-    .list-our-advantages .holder .text-advantages h3 {
-      font-size: 30px;
-      line-height: 45px;
-      color: #fff;
-      text-align: left;
-      margin-bottom: 25px; }
-    .list-our-advantages .holder .text-advantages p {
-      font-size: 22px;
-      line-height: 40px;
-      color: #fff;
-      text-align: left; }
+.text-advantages h3 {
+  font-size: 30px;
+  line-height: 45px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 25px; }
+
+.text-advantages p {
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+  text-align: left; }
 
 .holder-appraisal {
   display: flex;

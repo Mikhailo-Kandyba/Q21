@@ -107,6 +107,20 @@ h6 {
   background: #162137;
 }
 
+.unique-list {
+
+  .padding  {
+    padding-left: 100px;
+    padding-right: 70px;
+
+    &:after {
+      width: 15px;
+      height: 15px;
+      left: 8%;
+    }
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
