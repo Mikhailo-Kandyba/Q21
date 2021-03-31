@@ -2,7 +2,7 @@
   font-size: 15px;
   line-height: 22px;
   color: #162137;
-  padding: 13px 34px 14px 31px;
+  padding: 13px 23px 14px 31px;
   background: #2BF5E2;;
   border: none;
   cursor: pointer;
@@ -48,8 +48,8 @@
 
   .video-btn {
     position: absolute;
-    top: 64%;
-    right: 47%;
+    top: 50%;
+    right: 50%;
   }
 }
 
@@ -80,7 +80,7 @@
   }
 }
 
-.videos-and-articles {
+.video-list {
   position: relative;
 
   .video-btn {

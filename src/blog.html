@@ -74,8 +74,8 @@
                             <div class="holder-text">
                                 <h3>Videos und Artikel</h3>
                             </div>
-                            <div class="holder-videos-and-articles">
-                                <div class="videos-and-articles">
+                            <ul class="unique-list video-list">
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-1.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -89,8 +89,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                                <div class="videos-and-articles">
+                                </li>
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-2.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -104,8 +104,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                                <div class="videos-and-articles">
+                                </li>
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-3.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -119,8 +119,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                                <div class="videos-and-articles">
+                                </li>
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-4.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -134,8 +134,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                                <div class="videos-and-articles">
+                                </li>
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-6.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -149,8 +149,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                                <div class="videos-and-articles">
+                                </li>
+                                <li>
                                     <div class="wrapper-overlay">
                                         <img src="../src/images/video-5.png" alt="vodeo">
                                         <div class="overlay"></div>
@@ -164,8 +164,8 @@
                                     <p>
                                         Eine kurze Beschreibung dessen, was auf dem Video zu sehen ist
                                     </p>
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
                             <div class="holder-video-interview">
                                 <div class="video-interview">
                                     <div class="wrapper-overlay">
@@ -239,6 +239,11 @@
             $(this).toggleClass('menu-btn-active');
             $(".mobile-menu-navigation").toggleClass('show-menu')
         });
+    </script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog();
+        } );
     </script>
 </body>
 </html>

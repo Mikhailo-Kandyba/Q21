@@ -110,13 +110,15 @@ h6 {
 .unique-list {
 
   .padding  {
-    padding-left: 100px;
+    padding-left: 130px;
     padding-right: 70px;
+    margin-bottom: 130px;
 
     &:after {
-      width: 15px;
-      height: 15px;
-      left: 8%;
+      width: 20px;
+      height: 20px;
+      left: 9%;
+      top: 13%;
     }
   }
 }
@@ -147,14 +149,14 @@ h6 {
     color: #fff;
     text-align: left;
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 10px;
     margin-bottom: 80px;
 
     &:after {
       content: '';
-      width: 10px;
-      height: 10px;
+      width: 15px;
+      height: 15px;
       background: #27dfe5;
       transform: rotate(45deg);
       position: absolute;

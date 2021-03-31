@@ -1,10 +1,3 @@
-.holder-video-blog {
-  position: relative;
-
-  .show-video {
-    display: block;
-  }
-}
 
 .video-blog {
   display: flex;
@@ -24,22 +17,20 @@
   }
 }
 
+.video-list {
 
+  li {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
 
-.holder-videos-and-articles {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -32px;
-  margin-bottom: 20px;
-
-  .videos-and-articles {
-    width: 30.3%;
-    margin: 0 24px 80px;
+    &:after {
+      display: none;
+    }
 
     img {
       filter: grayscale(100%);
       margin-bottom: 28px;
-      width: 100%;
     }
 
     h3 {
@@ -52,9 +43,28 @@
     p {
       font-size: 22px;
       line-height: 33px;
+      color: #162137;
     }
   }
 }
+
+
+
+//.holder-videos-and-articles {
+//  display: flex;
+//  flex-wrap: wrap;
+//  margin: 0 -32px;
+//  margin-bottom: 20px;
+//
+//  .videos-and-articles {
+//    width: 30.3%;
+//    margin: 0 24px 80px;
+//
+
+//
+
+//  }
+//}
 
 .holder-video-interview {
   display: flex;
