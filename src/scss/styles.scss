@@ -337,3 +337,195 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+
+  .header {
+    padding: 30px 40px 0;
+  }
+
+  .banner {
+    min-height: 610px;
+    background-size: 800px 500px;
+  }
+
+  .holder-video-clip {
+    padding-bottom: 255px;
+  }
+
+    .holder-banner-text {
+    max-width: 395px;
+    padding: 230px 0 0 0;
+
+    h2 {
+      font-size: 30px;
+      line-height: 45px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .description-video {
+
+    .description-1 {
+
+      p {
+        font-size: 30px;
+        line-height: 40px;
+      }
+    }
+
+    .description-2 {
+      padding: 25px 0 0 15px;
+
+      p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .description-franchise {
+
+    .text-franchise {
+
+      h3 {
+        font-size: 25px;
+        line-height: 45px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .list-franchise {
+
+      li {
+
+        .numeral {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .wrapper-service {
+    padding-top: 300px;
+  }
+
+  .authorization-steps {
+
+    .arrow-1 {
+      width: 30%;
+    }
+
+    .arrow-2 {
+      width: 30%;
+      left: 9%;
+    }
+
+    h3 {
+      font-size: 40px;
+    }
+
+    h4 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .first-step-authorization {
+    margin-bottom: 50px;
+  }
+
+  .holder-insurance-overview {
+    margin-bottom: 50px;
+  }
+
+  .holder-insurance-overview {
+
+    .second-step {
+      max-width: 415px;
+
+      p {
+        padding: 0 130px 0 0;
+      }
+    }
+  }
+
+  .third-step-authorization {
+    margin-left: 20px;
+  }
+
+  .employees {
+    padding: 190px 0 57px 0;
+
+    .holder-text {
+
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .photo-employees {
+
+    li {
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .holder-our-advantages-all {
+
+    h3 {
+      font-size: 40px;
+    }
+  }
+
+  .unique-list {
+
+    .padding {
+      padding-left: 50px;
+      padding-right: 20px;
+
+      .text-advantages {
+
+        h3 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .footer  {
+
+    .footer-text {
+
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+
+      p {
+        padding: 0 100px 0 0;
+      }
+    }
+  }
+}
