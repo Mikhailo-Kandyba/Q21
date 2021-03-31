@@ -11,3 +11,113 @@
 @import "comman";
 @import "modal-window";
 
+@media (max-width: 1599px) {
+
+  .header {
+    padding: 62px 40px 0;
+  }
+
+  .banner {
+    background-size: 1200px 800px;
+  }
+
+  .holder-banner-text {
+    max-width: 585px;
+    margin-bottom: 115px;
+  }
+
+  .video-clip {
+    padding: 200px 0 185px;
+  }
+
+  .holder-video-clip {
+    padding-bottom: 215px;
+  }
+
+  .description-franchise {
+
+    .text-franchise {
+      padding: 30px 0 0 25px;
+
+      h3 {
+        font-size: 45px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .wrapper-service {
+
+    .list-area {
+      padding-top: 40px;
+    }
+  }
+
+  .authorization-steps {
+    padding: 0 0 125px 55px;
+
+    h3 {
+      margin-bottom: 35px;
+    }
+  }
+
+  .holder-insurance-overview {
+
+    .second-step {
+      max-width: 665px;
+    }
+  }
+
+  .authorization-steps {
+
+    .arrow-2 {
+      bottom: 40%;
+      left: 20%;
+    }
+  }
+
+  .unique-list {
+
+    .padding {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .container {
+    padding: 0 35px;
+  }
+
+  .banner {
+    background-size: 1000px 600px;
+    min-height: 710px;
+  }
+
+  .holder-banner-text {
+    padding: 230px 0 0 0;
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    P {
+      font-size: 15px;
+    }
+  }
+
+  .video-clip {
+
+    .video-btn {
+      margin: -20px;
+    }
+  }
+
+
+
+}
