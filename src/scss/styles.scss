@@ -89,11 +89,53 @@
 
 @media (max-width: 1199px) {
 
+  .btn-sm {
+    padding: 15px 60px;
+  }
+
   .container {
     padding: 0 35px;
   }
 
-  .banner {
+  .navigation {
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        font-size: 40px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  .mobile-menu-navigation {
+    padding: 110px 24px 60px 40px;
+    max-width: 665px;
+  }
+
+  .holder-bottom-menu {
+
+    .holder-contact-menu {
+
+      li {
+
+        a {
+          font-size: 10px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .holder-social-network {
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+
+    .banner {
     background-size: 1000px 600px;
     min-height: 710px;
   }
@@ -112,12 +154,186 @@
   }
 
   .video-clip {
+    padding: 200px 0 285px;
 
     .video-btn {
       margin: -20px;
     }
   }
 
+  .description-franchise {
 
+    .text-franchise {
 
+      h3 {
+        font-size: 35px;
+        line-height: 56px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        line-height: 30px;
+      }
+    }
+
+    .list-franchise {
+
+      li {
+        padding-left: 0;
+        margin-bottom: 20px;
+
+        p {
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .wrapper-service {
+    padding-top: 200px;
+    margin-bottom: 215px;
+
+    .list-area {
+
+      h3 {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .unique-list {
+
+    li {
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 30px;
+
+      &:after {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+  .authorization-steps {
+    padding: 0 0 125px 10px;
+
+    .arrow-2 {
+      left: 15%;
+    }
+
+    h3 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 45px;
+      margin-bottom: 15px;
+      line-height: 50px;
+    }
+  }
+
+  .holder-insurance-overview {
+
+    .second-step {
+      max-width: 565px;
+
+      h3 {
+        margin-bottom: 10px;
+      }
+
+      h4 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .employees {
+    padding: 250px 0 57px 0;
+
+    .holder-text {
+
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .photo-employees {
+
+    li {
+
+      img {
+        margin-bottom: 0;
+      }
+
+      h3 {
+        margin-bottom: 5px;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .holder-our-advantages {
+    min-height: 1000px;
+  }
+
+  .holder-our-advantages-all {
+    padding: 200px 0 190px;
+
+    h3 {
+      margin-bottom: 30px;
+    }
+  }
+
+  .unique-list {
+
+    .padding {
+      padding-left: 80px;
+      padding-right: 30px;
+
+      &:after {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+  .text-advantages {
+
+    h3 {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+
+  .footer {
+    padding: 40px 0;
+
+    .footer-text {
+
+      h3 {
+        font-size: 55px;
+        line-height: 70px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 25px;
+      }
+    }
+  }
 }
